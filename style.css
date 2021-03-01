@@ -1,0 +1,55 @@
+html {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: rgb(244,168,200);
+    background: -moz-linear-gradient(90deg, rgba(244,168,200,1) 0%, rgba(0,109,246,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(244,168,200,1) 0%, rgba(0,109,246,1) 100%);
+    background: linear-gradient(90deg, rgba(244,168,200,1) 0%, rgba(0,109,246,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f4a8c8",endColorstr="#006df6",GradientType=1);
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+input[type=text], input[type=number], select, textarea {
+  width: 80%;
+}
+
+.container {
+    background: rgb(234, 173, 173);
+    border-radius: 10px;
+}
+
+hr {
+    width: auto;
+    margin-left: 0;
+    visibility: hidden;
+}
+
+.border {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.border p {
+    margin: 0;
+    padding: 20px;
+    text-align: left;
+    white-space: pre-line;
+}
+
+.print {
+    width: 80%;
+    color: white;
+    border-radius: 15px;
+    background-color: #28A745;
+}
